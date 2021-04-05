@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ClubList
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ClubList\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ClubList()
+comment2.params=club1
+comment2.target=void\ addClub(Club)
+comment3.params=index
+comment3.target=java.lang.String\ getClub(int)
+comment4.params=
+comment4.target=java.lang.String\ listClub()
+comment5.params=
+comment5.target=int\ numberofClub()
+comment6.params=index
+comment6.target=void\ removeClub(int)
+numComments=7

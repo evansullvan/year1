@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <title>Choices</title>
+</head>
+
+<body>
+    <div class="ui one column grid">
+        <div class="ui column grey" id="thick"></div>
+    </div>
+
+    <div class="ui five column grid">
+        <div class="ui column grey">
+
+        </div>
+        <div class="ui column grey">
+            <section></section>
+            <section class="sect1">
+                <h1>Click the button for a calculator</h1>
+            </section>
+            <section class="sect2">
+                <button class="ui inverted button"
+                    onclick="window.location = '//evan-webdev1.000webhostapp.com/assignments/js%20assignment1/calculator.html'">Calculator</button>
+            </section>
+            <section class="sect2"></section>
+            <section class="sect3"></section>
+
+        </div>
+        <div class="ui column grey">
+            <h2 class="middle" id="name"></h2>
+        </div>
+        <div class="ui column grey">
+
+            <section></section>
+            <section class="sect1">
+                <h1>Click the button for Quotes</h1>
+            </section>
+            <section class="sect2"> <button class="ui inverted button" onclick="window.location=
+                    '//evan-webdev1.000webhostapp.com/assignments/js%20assignment1/quote.html'">Quotes</button>
+            </section>
+            <section class="sect2"></section>
+            <section class="sect3"></section>
+        </div>
+        <div class="ui column grey">
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="ui five column grid">
+        <div class="ui column grey">
+
+        </div>
+        <div class="ui column grey">
+
+
+        </div>
+        <div class="ui column grey">
+            <section class="sect1"></section>
+            <section class="sect2">
+                <h1>What is your name</h1>
+            </section>
+            <section class="sect2"><button class="ui inverted button" onclick="Name1()">Name</button></section>
+            <section class="sect2"></section>
+            <section class="sect3"></section>
+
+        </div>
+        <div class="ui column grey">
+
+
+        </div>
+        <div class="ui column grey">
+
+        </div>
+
+        <div class="ui column grey" id="bottom">
+            <button class="ui inverted button">
+                <script>
+                    let date1 = new Date()
+                    let date = date1.toDateString();
+                    let time = date1.toTimeString()
+                    document.write("Todays date is " + date + "<br>")
+                    document.write("The time is " + time)
+                </script>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+</body>
+
+</html>

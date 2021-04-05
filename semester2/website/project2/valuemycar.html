@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript.js"></script>
+    <title>Sell my Products</title>
+</head>
+
+<body>
+    <div class="ui container">
+        <nav class="ui  inverted segment">
+            <div class="ui stackable five item inverted secondary pointing menu">
+                <a href="index.html" class="ui large  image item ">
+                    <img src="images/logo/chartitylogo.png" alt="logo" height="7" width="70">
+                </a>
+                <a href="usedcars.html" class="item">
+                    Used Goods
+                </a>
+                <a href="newcars.html" class=" item">
+                    New Goods
+                </a>
+                <a href="valuemycar.html" class="active item ">
+                    Sell my goods
+                </a>
+                <div class="right menu">
+                    <a href="signin.html" class="ui item">
+                        Logout/Sign in
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section id="sellingbackground">
+            <h1 class="sellmything">Sell my Product</h1>
+            <br>
+            <h3 class="sellmything">Sell your product yourself</h3>
+            <div class="ui grid container">
+                <div class="ui sixteen wide column">
+                    <button id="sellthisbutton" class="fluid ui yellow button"><a href="sellingform.html">Place your ad
+                            here</a></button>
+                </div>
+            </div>
+        </section>
+        <main id="why">
+            <div class="ui grid container">
+                <div class="ui eight wide column">
+                    <h3>Why should I sell my product on Charity life?</h3>
+                    <p>Reach millions of shoppers every week looking for cars for sale near you. Get more for your used
+                        car or truck when you sell it yourself. Flexible package options Renew for free as many time as
+                        you like every 30 days regardless of package
+                        selection Trusted vehicle pricing tools to help you set the right price Get double the exposure
+                        on two powerful sites–Autotrader and KBB Easily update and track your ad</p>
+                </div>
+                <div class="ui eight wide column">
+                    <h3>Why should I get a Kelley Blue Book® Instant Cash Offer?</h3>
+                    <p>Selling your car on your own can be a hassle. Save time and get a Kelley Blue Book Instant Cash
+                        Offer in minutes. You have the option to get cash or a trade-in credit. It’s free and there’s no
+                        purchase required.</p>
+                </div>
+            </div>
+        </main>
+        <section>
+
+        </section>
+        <footer>
+            <section class="ui stackable three column grid">
+                <section class="ui row" id="mediumgrey">
+                    <div class="ui column">
+
+                        <img src="images/logo/chartitylogo.png" alt="logo" height="50" width="58">
+                    </div>
+                    <div class="ui  column">
+                        <h1>Charity life</h1>
+                    </div>
+                    <div class="ui  column">
+
+                    </div>
+                </section>
+                <section class="ui row" id="darkgrey">
+                    <div class="ui column">
+                        <div class="ui link list">
+                            <a class=" item"><a href="index.html">Home</a>
+                                <a class="item"><a href="newcars.html">New Products</a>
+
+                        </div>
+
+                    </div>
+                    <div class="ui  column">
+                        <div class="ui link list">
+                            <a class="active item"><a href="usedcars.html">Used products</a>
+                                <a class="item"><a href="valuemycar.html">Sell my products</a>
+                        </div>
+
+                    </div>
+                    <div class="ui  column">
+                        <h2>Email us</h2>
+                        <div class="ui action input">
+                            <input type="text" value="Charity@life.org">
+                            <button class="ui yellow right labeled icon button">
+                                <i class="mail icon"></i>
+                                <a href="mailto:charity@life.org"> Email</a>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+                </section>
+                <section class="ui row" id="lightgrey">
+                    <div class="ui column"></div>
+                    <div class="ui column">
+                        <h3 id="copyright"> &#169; copyright Charity life </h3>
+                    </div>
+
+                </section>
+            </section>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+    <script>
+        $('.ui.search')
+            .search({
+                type: 'category',
+                source: categoryContent
+            });
+    </script>
+</body>

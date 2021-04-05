@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+
+#container{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+  
+}
+#fade{
+background-image: linear-gradient(#cfcfcf, transparent, transparent);
+height: 50px;
+}
+form{
+  
+    padding: 3em;
+    
+  
+    height: 50em;
+    
+   
+}
+#name{
+    margin-top: 13px;
+   
+}
+.left{
+    margin-left: 50px;
+     font-family: 'Fredericka the Great',
+     cursive, ;
+     font-size: 30px;
+     color: white;
+}
+input{
+    border: none;
+    border-color: transparent;
+    height: 2em;
+    background-color: transparent;
+ 
+    
+}
+.ui.card{
+    width: 15em;
+}
+.red{
+    color: red;
+   
+}
+textarea{
+    border-color: transparent;
+    border: none;
+     font-family: 'Fredericka the Great';
+    
+    height: 100px;
+    width: 300px;
+    background-color: transparent;
+}
+i:hover{
+    color: red;
+}
+
+
+.box{
+    background-color: transparent;
+    padding: 1em;
+    margin: 2em;
+   border-color: white;
+    border-radius: 10px 10px 10px 0px;
+    display: inline-block;
+   max-width: 90%;
+   font-family: 'Fredericka the Great';
+   
+}
+
+#submit{
+margin-top: 24px;
+margin-left: 120px;
+}
+.name{
+ font-weight: bold;
+ font-family: 'Fredericka the Great';
+ color: white;
+}
+.location{
+font-family: 'Fredericka the Great';
+
+color: white;
+}
+.para{
+    color: white;
+    font-family: 'Fredericka the Great';
+}
+input[type="text"]{
+    font-family: 'Fredericka the Great',
+    cursive;
+    color: rgb(180, 180, 180);
+}
+.aboutcovid{
+   color: white;
+   text-align: center;
+  
+ 
+
+}
+#blury{
+    background-image: url(../images/blur.jpeg);
+    height: 38em;
+    background-size: cover;
+    padding: 10%;
+}
+#overlay{
+    background-color: black;
+    opacity: .56;
+    padding: 8%;
+   
+   
+}
+.blackboard{
+    background-image: url(../images/blackboard.jpg);
+}
+.big{
+    font-size:  60px;
+}
+h1{
+    text-align: center;
+    color: rgb(31, 31, 31);
+    font-family: 'Fredericka the Great';
+
+}
+#stories{
+padding: 5%;
+background-color: white;
+
+}
+.underlined{
+    text-decoration: underline;
+}
+.purple{
+    color: purple;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+label{
+    font-size: 15px;
+}
+.outline{
+    border-style: double;
+}
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <title>Quote Generator</title>
+</head>
+
+<body>
+
+    <div class="ui one column grid">
+        <div class="ui column grey" id="top">
+            <button id="home" class="ui inverted button"
+                onclick="window.location='//evan-webdev1.000webhostapp.com/assignments/js%20assignment1/choice.html'">Home</button>
+        </div>
+    </div>
+
+    <div class="ui three column grid">
+        <div class="ui column grey" id="left">
+
+        </div>
+        <div class="ui column grey wide">
+            <section></section>
+            <section class="sect1">Quote</section>
+            <section class="sect2">
+                <div class="ui grid">
+                    <div class="two wide column"><img src="images/whiteline.png" alt="whiteline" height="100" width="7">
+                    </div>
+                    <div class="fourteen wide column" id="quote">
+
+                    </div>
+                </div>
+            </section>
+            <section class="sect2">
+                <button class="ui inverted button" onclick="sentence()">Quote</button>
+            </section>
+            <section class="sect2"></section>
+            <section class="sect3"></section>
+
+        </div>
+        <div class="ui column grey" id="right">
+
+        </div>
+        <div class="ui column grey" id="bottom">
+            <button class="ui inverted button">
+                <script>
+                    let date1 = new Date()
+                    let date = date1.toDateString();
+                    let time = date1.toTimeString()
+                    document.write("Todays date is " + date + "<br>")
+                    document.write("The time is " + time)
+                </script>
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+</body>
+
+</html>

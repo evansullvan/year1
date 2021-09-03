@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript.js"></script>
+    <title>New Products</title>
+</head>
+
+<body>
+    <div class="ui container">
+        <nav class="ui inverted segment">
+            <div class="ui stackable five item inverted secondary pointing menu">
+                <a href="index.html" class="ui large image item">
+                    <img src="images/logo/chartitylogo.png" alt="logo" height="7" width="70">
+                </a>
+                <a href="usedcars.html" class=" item">
+                    Used Goods
+                </a>
+                <a href="newcars.html" class=" active item">
+                    New Goods
+                </a>
+                <a href="valuemycar.html" class="item ">
+                    Sell my goods
+                </a>
+                <div class="right menu">
+                    <a href="signin.html" class="ui item">
+                        Logout/Sign in
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <main id="newcar">
+
+            <h1>
+                New Products for Sale
+            </h1>
+            <div class="ui  form">
+                <div class="field">
+
+                    <select class="ui fluid search">
+                        <option value="">Search by Product type or Size</option>
+                        <option value="FR">Furniture</option>
+                        <option value="TY">Toys</option>
+                        <option value="CH">Clothes</option>
+                        <option value="SH">Shoes</option>
+                        <option value="AT">Art</option>
+                    </select>
+                </div>
+            </div>
+
+        </main>
+        <main id="darknewcar">
+
+            <div class="ui stackable grid container">
+                <div class="four wide column">
+                    <form action="newcars.html">
+                        <section id="search">
+                            <div class="ui card">
+                                <div class="content">
+                                    <div class="header">Your Search</div>
+                                </div>
+                                <div class="content">
+                                    <h4 class="ui sub header">2536895 Results</h4>
+                                    <div class="ui small feed">
+
+                                    </div>
+                                </div>
+                                <div class="extra content">
+                                    <input
+                                        style="border: none;border-radius: 5.5px; background-color: #ffce2b; color: white; font-weight: bold; width: 10em; height: 2.6em;"
+                                        type="reset" name="reset filters" title="reset filters">
+                                    <hr>
+                                </div>
+
+
+                                <div class="container">
+
+                                    <h3 class="header">Location</h3>
+                                    <div class="content">
+
+
+                                        <h4>Search radius</h4>
+                                        <select class="ui selection dropdown">
+                                            <div class="menu">
+                                                <option value="">Radius</option>
+                                                <option value="6">25km</option>
+                                                <option value="5">50km</option>
+                                                <option value="4">100km</option>
+                                                <option value="3">150km</option>
+                                                <option value="2">200km</option>
+                                                <option value="1">300km</option>
+                                                <option value="0">Unlimited</option>
+
+                                            </div>
+
+                                        </select>
+                                        <hr>
+                                    </div>
+
+
+
+
+
+                                    <h3 class="header">Dealer home services</h3>
+                                    <div class="content">
+                                        <div class="grouped fields">
+
+                                            <div class="field">
+                                                <div class="ui checkbox">
+                                                    <input type="radio" name="example2" checked="checked">
+                                                    <label>Video Walkthrough</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox">
+                                                    <input type="radio" name="example2">
+                                                    <label>Test drive at home</label>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <div class="ui checkbox">
+                                                    <input type="radio" name="example2">
+                                                    <label>Local home delivery</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                    </div>
+
+
+                                    <h3 class="header">Price</h3>
+                                    <div class="content">
+                                        <h4>Min Price</h4>
+                                        <div class="ui input focus">
+                                            <input type="text" placeholder="£69">
+                                        </div>
+                                        <h4>Max price</h4>
+                                        <div class="ui input focus">
+                                            <input type="text" placeholder="£420,000,000">
+                                        </div>
+
+                                        <hr>
+                                    </div>
+
+
+                                    <h3 class="header">Condition</h3>
+                                    <div class="content">
+                                        <div class="ui checkbox">
+                                            <input type="checkbox" name="example">
+                                            <label>New Products</label>
+                                        </div>
+                                        <div class="ui checkbox">
+                                            <input type="checkbox" name="example">
+                                            <label>Used Products</label>
+                                        </div>
+                                        <div class="ui checkbox">
+                                            <input type="checkbox" name="example">
+                                            <label>Donated Products</label>
+                                        </div>
+
+                                    </div>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </section>
+
+                    </form>
+
+                </div>
+                <div class="twelve wide column" id="listing">
+                    <section id="listings12">
+
+                    </section>
+
+                </div>
+            </div>
+        </main>
+
+        <section>
+            <form id="form">
+                <input type="text" name="name" id="name">
+                <input type="text" name="location" id="location">
+                <input type="number" name="phone" id="phone">
+                <input type="Submit" id="submit" name="submit">
+            </form>
+
+        </section>
+
+
+        <section>
+
+        </section>
+        <div class="ui stackable sixteen wide center aligned container">
+            <section>
+                <div class="ui pagination menu">
+                    <a class=" item">
+                        1
+                    </a>
+                    <a class=" item">
+                        2
+                    </a>
+                    <a class=" item">
+                        3
+                    </a>
+                    <a class=" item">
+                        4
+                    </a>
+                    <a class=" item">
+                        5
+                    </a>
+                    <a class=" item">
+                        6
+                    </a>
+                    <a class=" item">
+                        7
+                    </a>
+                    <a class="item">
+                        8
+                    </a>
+                    <a class="item">
+                        9
+                    </a>
+                    <a class="item">
+                        10
+                    </a>
+                </div>
+                <select class="ui dropdown">
+                    <option value="">Show 25</option>
+                    <option value="1">Show 50</option>
+                    <option value="0">Show 100</option>
+                </select>
+            </section>
+
+
+
+
+
+        </div>
+
+
+
+        <footer>
+            <section class="ui stackable three column grid">
+                <section class="ui row" id="mediumgrey">
+                    <div class="ui column">
+
+                        <img src="images/logo/chartitylogo.png" alt="logo" height="50" width="60">
+                    </div>
+                    <div class="ui  column">
+                        <h1>Charity life</h1>
+                    </div>
+                    <div class="ui  column">
+
+                    </div>
+                </section>
+                <section class="ui row" id="darkgrey">
+                    <div class="ui column">
+                        <div class="ui link list">
+                            <a class="item"><a href="index.html">Home</a>
+                                <a class="item"><a href="newcars.html">New Products</a>
+
+                        </div>
+
+                    </div>
+                    <div class="ui  column">
+                        <div class="ui link list">
+                            <a class="active item"><a href="usedcars.html">Used products</a>
+                                <a class="item"><a href="valuemycar.html">Sell my products</a>
+                        </div>
+
+                    </div>
+                    <div class="ui  column">
+                        <h2>Email us</h2>
+                        <div class="ui action input">
+                            <input type="text" value="Charity@life.org">
+                            <button class="ui yellow right labeled icon button">
+                                <i class="mail icon"></i>
+                                <a href="mailto:charity@life.org"> Email</a>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+                </section>
+                <section class="ui row" id="lightgrey">
+                    <div class="ui column"></div>
+                    <div class="ui column">
+                        <h3 id="copyright"> &#169; copyright Charity life </h3>
+                    </div>
+
+                </section>
+            </section>
+
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+</body>

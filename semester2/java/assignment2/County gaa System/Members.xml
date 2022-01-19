@@ -1,0 +1,31 @@
+<object-stream>
+  <list>
+    <AdultPlayer>
+      <name>harry</name>
+      <address>5 tramore road</address>
+      <gender>male</gender>
+      <phone>0890507058</phone>
+      <email>harry@gamil.com</email>
+    </AdultPlayer>
+    <AdultPlayer>
+      <name>lara croft</name>
+      <address>2 cork road</address>
+      <gender>male</gender>
+      <phone>50604050609</phone>
+      <email>lara.croft@gmail.com</email>
+    </AdultPlayer>
+    <YouthPlayer>
+      <name>lucy</name>
+      <address>3 moorinvj road</address>
+      <gender>female</gender>
+      <nextOfKinName>mary</nextOfKinName>
+      <nextOfKinPhone>0987654321</nextOfKinPhone>
+    </YouthPlayer>
+    <Coach>
+      <name>paddy</name>
+      <address>4 paddy road</address>
+      <gender>male</gender>
+      <dateOfGardaClearance>10/04/28</dateOfGardaClearance>
+    </Coach>
+  </list>
+</object-stream>
